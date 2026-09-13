@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website</title>
+    <!-- Boxicons CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar Section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Halo, Nama Saya</h3>
+            <h1>Aidah Karimah Octaphany</h1>
+            <h3>Saya Adalah <span class="multiple-text"></span></h3>
+            <p>Seorang murid dari SMK KRIAN 1 Sidoarjo yang belajar di bidang Informatika Jurusan Rekayasa Perangkat Lunak yang tertarik pada dunia teknologi yang canggih dan bermanfaat</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="aidah.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/images1.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/images1.jpg" alt="About Picture">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Tentang <span>Saya</span></h2>
+            <h3>Digital lover & Data</h3>
+            <p>Saya memiliki pengalaman dalam membangun dan mengelola situs web <span class="more-text"> yang responsif. Keahlian saya mencakup HTML, CSS, JavaScript, serta berbagai kerangka kerja web modern. Saya bertekad untuk terus belajar dan menghadirkan karya terbaik di setiap proyek.</span>
+            </p>
+            <a href="#" id="read-more-btn" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">Layanan <span>Saya</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Membuat situs web fungsional, cepat, dan teroptimasi SEO sesuai dengan kebutuhan bisnis Anda.</p>
+              </div>
+
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>UI/UX Design</h3>
+                <p>Merancang antarmuka aplikasi dan web yang indah, intuitif, dan nyaman digunakan pengembang maupun pengguna.</p>
+              </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <h3>Digital Marketing</h3>
+                <p>Membantu mempromosikan produk dan brand Anda ke pasar digital secara luas dan tepat sasaran.</p>
+             </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Proyek</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/images3.jpg" alt="Portfolio 1">
+                <div class="portfolio-layer">
+                    <h4>Data Eksplorer</h4>
+                    <p>Desain landing page modern untuk produk startup.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/images2.jpg" alt="Portfolio 2">
+                <div class="portfolio-layer">
+                    <h4>Eksperimental Plant</h4>
+                    <p>Aplikasi pelacak keuangan harian berbasis mobile.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/images4.jpg" alt="Portfolio 3">
+                <div class="portfolio-layer">
+                    <h4>Web Developer</h4>
+                    <p>Platform toko online terintegrasi payment gateway.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Hubungi <span>Saya</span></h2>
+
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Alamat Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Nomor Telepon" required>
+                <input type="text" placeholder="Subjek Email" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Pesan Anda..." required></textarea>
+            <input type="submit" value="Kirim Pesan" class="btn">
+        </form>
+    </section>
+
+  
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 See You | SomeLady.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal Library CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typed JS Library CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
